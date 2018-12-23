@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</head>
+<style>
+    h1{
+        color:white;
+        text-align: center;
+    }
+
+    
+
+    .body-panel{
+        color:white;
+        background-color: rgba(55, 31, 194, 0.5);
+    }
+</style>
+
+<body>
+<div class="container">
+<div class="body-panel">
+<header>
+    <h1>Trivia Game</h1>
+</header>
+<section>
+    <div id="results">
+        <form name="quizForm" onsubmit="return submitAnswers()">
+        <h3>1. 1+1=2</h3>
+        <li><input type="radio" name="q1" value="a" />Yellow</li>
+        <li><input type="radio" name="q1" value="b" />Yellow</li>
+        <li><input type="radio" name="q1" value="c" />Yellow</li>
+        <li><input type="radio" name="q1" value="d" />Yellow</li>
+
+        <h3>1. 1+1=2</h3>
+        <li><input type="radio" name="q2" value="a" />Yellow</li>
+        <li><input type="radio" name="q2" value="b" />Yellow</li>
+        <li><input type="radio" name="q2" value="c" />Yellow</li>
+        <li><input type="radio" name="q2" value="d" />Yellow</li>
+
+        <h3>1. 1+1=2</h3>
+        <li><input type="radio" name="q3" value="a" />Yellow</li>
+        <li><input type="radio" name="q3" value="b" />Yellow</li>
+        <li><input type="radio" name="q3" value="c" />Yellow</li>
+        <li><input type="radio" name="q3" value="d" />Yellow</li>
+
+        <h3>1. 1+1=2</h3>
+        <li><input type="radio" name="q4" value="a" />Yellow</li>
+        <li><input type="radio" name="q4" value="b" />Yellow</li>
+        <li><input type="radio" name="q4" value="c" />Yellow</li>
+        <li><input type="radio" name="q4" value="d" />Yellow</li>
+
+        <h3>1. 1+1=2</h3>
+        <li><input type="radio" name="q5" value="a" />Yellow</li>
+        <li><input type="radio" name="q5" value="b" />Yellow</li>
+        <li><input type="radio" name="q5" value="c" />Yellow</li>
+        <li><input type="radio" name="q5" value="d" />Yellow</li>
+
+
+        <input type="submit" value="submit Answers">
+        </form>
+    </div>
+</section>
+</div>
+</div>
+    
+    <script>
+         document.body.style.backgroundImage = "url('https://cdn1.iconfinder.com/data/icons/confectionery-color/295/05-512.png')";
+
+        //function buildQuiz(){}
+
+        //function showResults(){}
+
+        // display quiz right away
+        //buildQuiz();
+
+        // on submit, show results
+        //submitButton.addEventListener('click', showResults);
+        // var correctAnswer = 0;
+
+        // var wrongAnswer = 0;
+
+        // var question = 0;
+
+        // var images;
+
+        // var count = 30;
+
+        // var myQuestions = [
+        //     {
+        //         question: "Who ?",
+        //         answers: {
+        //             a: "Nikola Tesla",
+        //             b: "Thomas Edison",
+        //             c: "James Madison"
+        //         },
+        //         correctAnswer: "a"
+        //     },
+        //     {
+        //         question: "What is the best site ever created?",
+        //         answers: {
+        //             a: "SitePoint",
+        //             b: "Simple Steps Code",
+        //             c: "Trick question; they're both the best"
+        //         },
+        //         correctAnswer: "c"
+        //     },
+        //     {
+        //         question: "Where is Waldo really?",
+        //         answers: {
+        //             a: "Antarctica",
+        //             b: "Exploring the Pacific Ocean",
+        //             c: "Sitting in a tree",
+        //             d: "Minding his own business, so stop asking"
+        //         },
+        //         correctAnswer: "d"
+        //     }
+        // ];
+
+       function submitAnswers(){
+           var total=5;
+           var score=0;
+
+           var q1= document.forms["quizform"]["q1"].value;
+           var q2= document.forms["quizform"]["q2"].value;
+           var q3= document.forms["quizform"]["q3"].value;
+           var q4= document.forms["quizform"]["q4"].value;
+           var q5= document.forms["quizform"]["q5"].value;
+        
+
+       r(i=1; i<=total; i++ ){
+        if(q1 ==null || q1=='' ){
+            alert("you missed a question 1");
+            return false;
+        
+        }
+       fo
+
+       }
+        }
+    </script>
+</body>
+
+</html>
